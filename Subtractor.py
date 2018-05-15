@@ -91,7 +91,6 @@ test_x = x[20000:]
 test_y = y[20000:]
 
 split_at = len(train_x) - len(train_x) // 10
-
 (x_train, x_val) = train_x[:split_at], train_x[split_at:]
 (y_train, y_val) = train_y[:split_at], train_y[split_at:]
 
