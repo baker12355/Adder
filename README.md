@@ -6,6 +6,6 @@
     
 >>   2.One hot encoding each them and follow the order --> space sub 0 1 2 3 4 5 6 7 8 9
 >>   so '9' =  ['F F F F F F F F F F F T'] , ' ' = ['T F F F F F F F F F F F']
->>   therefore the input become 7*12 matrix and output 4*12
+>>   therefore the input become 7x12 matrix and output 4x12
   
 >>  3.Use RNN training
